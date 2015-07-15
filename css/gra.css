@@ -1,0 +1,109 @@
+body {
+  position: relative;
+  padding-top: 60px;
+  font: 400 16px 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  color: #333;
+  background: url('../img/gra_bg.png') no-repeat 100% 100% fixed;
+}
+
+strong { font-weight: 700; }
+
+h1, h2 {
+  font-family: 'Viga';
+  color: #619629;
+}
+
+h3, h4 {
+  font-family: 'Viga';
+  color: #ff5722;
+}
+
+h5, h6 {
+  font-family: 'Viga';
+  color: #7e5399;
+}
+
+.gra-orange { color: #ff5722; }
+.gra-red       { color: #eb282e; }
+.gra-yellow { color: #ebd91c; }
+.gra-lblue   { color: #87d3e8; }
+.gra-blue     { color: #3f5ea6; }
+.gra-purple { color: #7e5399; }
+.gra-green   { color: #619629; }
+.gra-lgreen { color: #5d9635; }
+.gra-dgreen { color: #1a2e03; }
+
+.gra-orange-bg { background: #ff5722; }
+.gra-red-bg       { background: #eb282e; }
+.gra-yellow-bg { background: #ebd91c; }
+.gra-lblue-bg   { background: #87d3e8; }
+.gra-blue-bg     { background: #3f5ea6; }
+.gra-purple-bg { background: #7e5399; }
+.gra-green-bg   { background: #619629; }
+.gra-lgreen-bg { background: #5d9635; }
+.gra-dgreen-bg { background: #1a2e03; }
+
+.shadow {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron {
+  background: #619629;
+  color: #fff;
+}
+
+.navbar {
+  padding: 15px 0;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.brand img {
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f5f5f5;
+  color: #666;
+  font-size: 12px;
+}
+
+.img-header {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.file-not-found {
+  margin-top: 60px;
+}
+
+.show-more,
+.collapsed > .show-less {
+  display: none;
+  transition: all 0.3s ease;
+}
+.show-less,
+.collapsed > .show-more {
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top {
+  display: none;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  font-size: 32px;
+  text-align: center;
+  background: #eee;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 101;
+}

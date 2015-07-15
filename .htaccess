@@ -1,0 +1,17 @@
+# Disable directory listing from this point
+Options -Indexes
+
+# Prevent viewing of htaccess file
+<Files ~ "^\.ht">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Error Pages
+ErrorDocument 404 /404.html
